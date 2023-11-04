@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./selector.component.css']
 })
 export class SelectorComponent {
+  op: any;
 
+  es() {
+    this.op = 0;
+  }
+
+  en() {
+    this.op = 1;
+  }
 }
