@@ -1,5 +1,16 @@
+.btn-group {
+    align-items: flex-end baseline;
+}
+
 .color {
     background-color: #134779;
+}
+
+.forma {
+    width: 165px;
+    height: 40px;
+    position: absolute;
+    margin-left: 72px;
 }
 
 li a {

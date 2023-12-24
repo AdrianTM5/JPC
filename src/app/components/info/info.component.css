@@ -1,0 +1,21 @@
+#Card {
+    text-decoration: none;
+    color: black !important;
+    border: 5px solid;
+    border-color: #134779;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    position: absolute;
+    left: 20px !important;
+    top: 15%;
+}
+
+.card h5, p {
+    margin-left: 80px;
+}
