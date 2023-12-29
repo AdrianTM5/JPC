@@ -1,4 +1,4 @@
-#Card {
+#Card{
     text-decoration: none;
     color: black !important;
     border: 5px solid;
@@ -10,12 +10,150 @@
     margin-bottom: 10px;
 }
 
+.last-child{
+    height: 110px;
+}
+
 .card img {
     position: absolute;
     left: 20px !important;
-    top: 15%;
+    top: 22px !important;
 }
 
 .card h5, p {
     margin-left: 80px;
+}
+
+
+@media screen and (max-width: 311px) {
+    .card {
+        width: 99% !important;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+        left: 25px !important;
+        top: 9px !important;
+    }
+
+    .card p {
+       font-size: 10px ;
+    }
+
+    .card h5 {
+        font-size: 11px ;
+    }
+
+    .last-child{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 257px) {
+    .card img {
+        top: 10px !important;
+    }
+}
+
+@media screen and (min-height: 897px) {
+    #Card {
+        height: 110px !important;
+    }
+}
+
+
+@media screen and (min-height: 915px) {
+    #Card {
+        height: 130px !important;
+    }
+}
+
+@media screen and (min-height: 932px) {
+    #Card {
+        height: 120px !important;
+    }
+}
+
+@media screen and (min-height: 980px) {
+    #Card {
+        height: 130px !important;
+    }
+}
+
+@media screen and (min-height: 1009px) {
+    #Card {
+        height: 140px !important;
+    }
+}
+
+@media screen and (min-height: 1024px) {
+    #Card {
+        height: 140px !important;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+        left: 15px !important;
+        top: 35px !important;
+    }
+
+    .card p {
+        font-size: 20px ;
+     }
+ 
+     .card h5 {
+         font-size: 20px ;
+     }
+}
+
+@media screen and (min-height: 1180px) {
+    #Card {
+        height: 191px !important;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+        left: 15px !important;
+        top: 55px !important;
+    }
+
+    .card p {
+        font-size: 20px ;
+     }
+ 
+     .card h5 {
+         font-size: 20px ;
+    }
+    
+    .card-body {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-height: 1366px) {
+    #Card {
+        height: 254px !important;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+        left: 15px !important;
+        top: 90px !important;
+    }
+
+    .card p {
+        font-size: 20px ;
+     }
+ 
+     .card h5 {
+         font-size: 20px ;
+    }
+    
+    .card-body {
+        margin-top: 60px;
+    }
 }

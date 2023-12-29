@@ -16,3 +16,33 @@
 li a {
     cursor: pointer;
 }
+
+@media screen and (max-width: 311px) {
+    .forma {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 301px) {
+    .forma {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .forma {
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .forma {
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .forma {
+        margin-left: 40px;
+    }
+}

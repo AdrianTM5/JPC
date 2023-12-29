@@ -1,9 +1,9 @@
 <div *ngIf="selector.op == 0">
   <div class="container mt-5">
     <div class="col">
-      <div *ngFor="let project of es" class="row-md-4 no-gutters">
+      <div *ngFor="let project of es; let last = last" class="row-md-4 no-gutters">
         <div class="card" style="width: 18rem;">
-          <a [href]="project.link" id="Card">
+          <a [href]="project.link" id="Card" [ngClass]="{'last-child': last}">
             <img [src]="project.img" class="card-img-right img-size" height="80px">
             <div class="card-body">
              <h5 class="card-title">{{project.title}}</h5>
@@ -19,9 +19,9 @@
 <div *ngIf="selector.op == 1">
   <div class="container mt-5">
     <div class="col">
-      <div *ngFor="let project of en" class="row-md-4 no-gutters">
+      <div *ngFor="let project of en; let last = last" class="row-md-4 no-gutters" >
         <div class="card" style="width: 18rem;">
-          <a [href]="project.link" id="Card">
+          <a [href]="project.link" id="Card" [ngClass]="{'last-child': last}">
             <img [src]="project.img" class="card-img-right img-size" height="80px">
             <div class="card-body">
              <h5 class="card-title">{{project.title}}</h5>
