@@ -3,6 +3,11 @@
     color: black !important;
     border: 5px solid;
     border-color: #134779;
+    transition: all 300ms;
+}
+
+#Card:hover {
+    border-color: #2374CA;
 }
 
 .card {
@@ -24,6 +29,29 @@
     margin-left: 80px;
 }
 
+#Contacto {
+    padding: 5px;
+}
+
+#g {
+    display: flex !important;
+    background-color: #134779;
+    transition: 300ms all;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 25%;
+    top: 43px;
+    width: 145px;
+    height: 43px;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#g:hover {
+    background-color: #2374CA;
+}
 
 @media screen and (max-width: 311px) {
     .card {

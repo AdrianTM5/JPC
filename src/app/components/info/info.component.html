@@ -1,4 +1,7 @@
 <div *ngIf="selector.op == 0">
+  <div id="Contacto">
+    <a href="../files/Flowcontact.vcf" id="g" download="Flowcontact.vcf">Agregar a Contactos</a>
+  </div>
   <div class="container mt-5">
     <div class="col">
       <div *ngFor="let project of es; let last = last" class="row-md-4 no-gutters">
@@ -17,6 +20,9 @@
 </div>
 
 <div *ngIf="selector.op == 1">
+  <div id="Contacto">
+    <a href="../files/Flowcontact.vcf" id="g" download="Flowcontact.vcf">Add to Contacts</a>
+  </div>
   <div class="container mt-5">
     <div class="col">
       <div *ngFor="let project of en; let last = last" class="row-md-4 no-gutters" >
