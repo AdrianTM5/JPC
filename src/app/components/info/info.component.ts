@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SelectorComponent } from '../selector/selector.component';
 
 @Component({
   selector: 'info',
@@ -6,7 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./info.component.css']
 })
 export class InfoComponent {
-
+  
+  constructor(public selector: SelectorComponent){
+    selector.op = 0;
+  }
   es: any = [
     {
       title: 'Agenda una cita',
@@ -17,19 +21,19 @@ export class InfoComponent {
     {
       title: 'Instagram',
       desc: '¡Siguenos en Instagram!',
-      link: 'https://www.instagram.com/prosalfinancialservices',
+      link: 'https://www.instagram.com/prosalfinancialservices/',
       img: '../../../assets/svg/instagram.svg'
-    },
-    {
-      title: 'Tiktok',
-      desc: '¡Siguenos en TikTok!',
-      link: 'https://www.tiktok.com/@prosalfinancialservices',
-      img: '../../../assets/svg/tiktok.svg'
     },
     {
       title: 'Facebook',
       desc: '¡Siguenos en Facebook!',
-      link: 'https://www.tiktok.com/@prosalfinancialservices',
+      link: 'https://www.facebook.com/prosalfinancialservices',
+      img: '../../../assets/svg/facebook.svg'
+    },
+    {
+      title: 'TikTok',
+      desc: '¡Siguenos en TikTok!',
+      link: 'https://www.tiktok.com/@javier_saldivar?lang=es',
       img: '../../../assets/svg/tiktok.svg'
     }
   ]
